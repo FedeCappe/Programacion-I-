@@ -125,7 +125,3 @@ para que se transforme todo en minúsculas excepto la primera letra.'''
 
 print("El nombre en minuscula menos la primera letra seria: ",nombreMayuscula.capitalize())
 
-
-
-
-
