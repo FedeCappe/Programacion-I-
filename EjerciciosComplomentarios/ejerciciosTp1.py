@@ -267,4 +267,3 @@ un_tanque = capacidad*consumo
 total_tanques = math.ceil(kilometros/un_tanque)
 
 print(f"Debera cargar {total_tanques} veces el tanque")''' 
-
