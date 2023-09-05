@@ -29,7 +29,7 @@ nombre = 'Federico'
 #6. Crea una variable llamada "precio" y asígnale un valor decimal que represente el 
 #precio de un artículo ficticio.
 
-precio = 100
+precio = 100.50
 
 '''
 7. Ahora, sin borrar la variable anterior, crea una variable llamada "descuento" y asígnale
@@ -76,7 +76,7 @@ mismo.
 
 precio = 20.5
 
-precioEntero = int(precio) 
+precioEntero = int (precio) 
 
 print ("El precio en decimal es:  " ,precio , "Y pasado a entero es: ",precioEntero)
 
@@ -123,6 +123,6 @@ print("El nombre pasado a minusculas: ", nombreMayuscula.lower())
 '''16. Por último, con la variable con el nombre en mayúsculas, aplica un método parecido
 para que se transforme todo en minúsculas excepto la primera letra.'''
 
-print("El nombre en minuscula menos la primera letra seria: ",nombreMayuscula.capitalize())
+print("El nombre en minuscula menos la primera letra seria: ",nombreMayuscula.title())
 
-#EjerciciosComplementarios.´Parte1
+#EjerciciosComplementarios.´Parte1 - Corregido. 
