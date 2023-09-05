@@ -35,3 +35,5 @@ if(diaIngresado== "lunes" or diaIngresado == "martes" or diaIngresado == "mierco
                 alumnosIngresantes = int(input("Ingresar la cantidad de almunos nuevos: "))
                 arancel = int(input("Ingresar la cantidad de arancel por alumno: "))
                 print(f"El ingreso total es de: ${alumnosIngresantes*arancel}")
+
+                #FIN
