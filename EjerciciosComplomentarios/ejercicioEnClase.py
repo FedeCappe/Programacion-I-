@@ -1,6 +1,6 @@
 import math
 #Pedirle al usuario que igrese la fecha actual: 
-fechaActual = str(input ("Ingresar la fecha actual en el siguiente formato: (dia,DD/MM) "))
+fechaActual = str(input ("Ingresar la fecha actual en el siguiente formato: (dia,MM/AAAA) "))
 #Buscar que dias y numeros ingreso el usuario: 
 diaIngresado = (fechaActual.split(',')[0]).lower()
 numeroDia = int((fechaActual.split(',')[1].split('/')[0])) 
