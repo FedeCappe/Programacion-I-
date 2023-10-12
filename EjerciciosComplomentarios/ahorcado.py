@@ -2,13 +2,17 @@ import random
 
 #Crear una lista de palabras: 
 words = ["auto","camioneta","cancha","futbol","hinchada","computadora","teclado","mouse","monitor","celular"]
+#Le indico la cantidad maxima de fallos: 
 max_failed = 6
+
+#Creo la funcion para que busque una palabra al azar y la oculte con "_" : 
 
 def search_random_word():
      random_word = random.choice(words)
      secret_word = "_"*len(random_word)
      return random_word,secret_word 
 
+#Creo la funcion para remplazar la letra encontrada y en la posiciones que se encuntran: 
 
 def replace_letter(original,secret,letter):
      amount = original.count(letter)
@@ -19,6 +23,7 @@ def replace_letter(original,secret,letter):
           inicio = position+1
      return secret
 
+#Creo la funcion con las reglas del juego: 
 
 def ahorcado():
      print (f"Bienvenido al juego del AHORCADO. Podes fallar {max_failed} veces. ")
