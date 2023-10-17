@@ -1,5 +1,5 @@
 import pytest
-from tp5_Funciones import *
+from EjerciciosComplomentarios.tp5_Test.tp5_Funciones import *
 
 @pytest.mark.parametrize("a, res",[
     ("43829992",True),
