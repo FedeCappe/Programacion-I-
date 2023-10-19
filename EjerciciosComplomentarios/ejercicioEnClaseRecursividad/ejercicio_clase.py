@@ -18,3 +18,5 @@ print(f"La cantiad de minutos que el mouse estuvo en la jaula fue: {mouse} minut
 orden inverso al que fueron mandados. Por ejemplo si ingresamos el número 210, nos va a devolver 012
 
 print(funciones.f(998332312))'''
+
+#fd
